@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="jetcar">
+  <link name="base_link">
+    <visual name="base_visual">
+      <origin xyz="0 0 0.0" rpy="1.57 0 3.14" />
+      <geometry name="prius_geom">
+
+        <mesh filename="package://automotive_server/src/prius_model.dae" scale="0.2 0.2 0.2"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
